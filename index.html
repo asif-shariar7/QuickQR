@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>QuickQR - Professional QR Code Generator</title>
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container navbar-container">
+    <h1 class="logo">QuickQR</h1>
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#generator">Generate QR</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+    <!-- Hamburger -->
+    <div id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</header>
+
+<section id="hero">
+  <div class="container hero-content">
+    <h2>Generate QR Codes Instantly</h2>
+    <p>Create professional QR codes for URLs, text, and more in seconds.</p>
+    <a href="#generator" class="btn-primary">Get Started</a>
+  </div>
+</section>
+
+<!-- Features Section -->
+<section id="features">
+  <div class="container section">
+    <h2 class="section-title">Features</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <h3>Instant QR Codes</h3>
+        <p>Generate QR codes instantly without any delays.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Multiple Formats</h3>
+        <p>Download QR codes as PNG, JPG, or SVG.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Responsive Design</h3>
+        <p>Works perfectly on desktop, tablet, and mobile devices.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Easy to Use</h3>
+        <p>User-friendly interface with professional layout.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QR Generator Section -->
+<section id="generator">
+  <div class="container section">
+    <h2 class="section-title">Generate Your QR Code</h2>
+
+    <div class="qr-generator">
+      <div class="input-group">
+        <input type="text" id="qrText" placeholder="Enter text or URL..."/>
+        <button id="generateBtn">Generate</button>
+      </div>
+
+      <div class="controls">
+        <label for="formatSelect">Format</label>
+        <select id="formatSelect" disabled>
+          <option value="png">PNG</option>
+          <option value="jpg">JPG</option>
+          <option value="svg" selected>SVG</option>
+        </select>
+      </div>
+
+      <div id="qrSection" class="qr-section hide">
+        <img id="qrImage" alt="QR Code"/>
+        <button id="downloadBtn" class="download">Download</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about">
+  <div class="container section">
+    <h2 class="section-title">About QuickQR</h2>
+    <p>QuickQR is a professional QR code generator built for developers, marketers, and businesses. Quickly generate and download QR codes in multiple formats with a responsive, modern interface.</p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <p>© 2026 QuickQR. All Rights Reserved. | Built by Asif Shariar</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
