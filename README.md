@@ -20,17 +20,6 @@ QuickQR is a modern and responsive QR Code Generator that allows users to create
 - QR Server API
 
 
-## Project Structure
-
-QuickQR/
-│
-├── index.html  
-├── style.css  
-├── script.js  
-├── scan.png  
-└── README.md  
-
-
 ## How It Works
 
 1. Enter text or a URL
